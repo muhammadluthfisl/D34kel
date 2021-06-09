@@ -1,0 +1,306 @@
+{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+/*============================================== latar 1 ==============================================*/
+header {
+  background-color: rgba(34, 49, 52, 0.9);
+  width: 100%;
+  height: 40px;
+  font-family: "Baloo Tammudu 2";
+  font-size: 20px;
+}
+
+.header2 {
+  width: 1100px;
+  margin: auto;
+  padding-top: ;
+  color: white;
+}
+
+header .kiri a {
+  float: left;
+  color: white;
+  font-size: 22px;
+}
+
+header .kanan {
+  float: right;
+  color: white;
+  font-size: 18px;
+  /* background-color: #fff; */
+}
+
+header .kanan a {
+  /* display: block; */
+  padding: 0 20px;
+  color: white;
+  height: 30px;
+}
+header .kanan a:hover {
+  background-color: yellowgreen;
+}
+
+/*============================================== latar 1 ==============================================*/
+.main {
+  width: 100%;
+}
+.latar1 {
+  background-image: url(./gambar/Bromo2.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.latar1 .teks {
+  height: 700px;
+  width: auto;
+  text-align: center;
+  /* background-color: red; */
+  position: relative;
+  top: 250px;
+}
+
+.latar1 .teks h1 {
+  font-family: "Baloo Tammudu 2";
+  font-size: 100px;
+  color: white;
+  /* background-color: vio  let; */
+  padding-left: 430px;
+  margin: 0px;
+  height: 140px;
+}
+
+.latar1 .teks p {
+  font-family: "Baloo Tammudu 2";
+  color: white;
+  /* background-color: red; */
+  width: 600px;
+  position: relative;
+  left: 28%;
+  font-size: 18px;
+  opacity: 0.5;
+  line-height: 28px;
+}
+
+.latar1 .teks .btn {
+  font-family: "Baloo Tammudu 2";
+  background-color: rgba(15, 104, 142, 0.57);
+  color: whitesmoke;
+  width: 90px;
+  display: block;
+  position: relative;
+  left: 45%;
+  /* padding-top: 10px; */
+  padding: 5px;
+  border-radius: 7px;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.latar1 .teks .btn:hover {
+  background-color: rgba(15, 104, 142, 1);
+}
+
+/*============================================== latar 2 ==============================================*/
+.latar2 {
+  background-image: url(./gambar/gunung.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.latar2 .teks {
+  height: 700px;
+  width: auto;
+  text-align: center;
+  /* background-color: red; */
+  position: relative;
+  top: 200px;
+}
+
+.latar2 .teks h1 {
+  font-family: "Baloo Tammudu 2";
+  font-size: 70px;
+  color: white;
+  /* background-color: violet; */
+  padding: 0px;
+  margin: 0px;
+  height: 130px;
+}
+
+.latar2 .teks p {
+  font-family: "Baloo Tammudu 2";
+  color: white;
+  /* background-color: red; */
+  width: 600px;
+  position: relative;
+  left: 28%;
+  font-size: 18px;
+  opacity: 0.5;
+  line-height: 28px;
+}
+
+/*============================================== contoh 1==============================================*/
+.contoh1 {
+  width: 1200px;
+  margin: auto;
+  margin: 100px 0;
+  margin-bottom: 600px;
+}
+.lapisan-contoh1 {
+  float: left;
+}
+.lapisan-contoh1 img {
+  margin-top: 30px;
+  width: 500px;
+  display: inline;
+  margin-left: 150px;
+}
+
+.lapisan-contoh1 .teks {
+  text-align: center;
+  font-family: "Baloo Tammudu 2";
+  line-height: 22px;
+  float: right;
+  width: 400px;
+  /* background-color: turquoise; */
+  margin-top: 150px;
+  margin-left: 60px;
+}
+
+.lapisan-contoh1 .teks h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.lapisan-contoh1 .teks p {
+  opacity: 0.6;
+}
+
+/*============================================== contoh 2==============================================*/
+.contoh2 {
+  width: 800px;
+  background-color: red;
+  margin: auto;
+  color: white;
+  font-family: "Baloo Tammudu 2";
+  text-align: center;
+}
+
+.gambar1 {
+  background-color: black;
+  height: 300px;
+}
+
+.gambar1 img {
+  width: 400px;
+  float: left;
+}
+
+.gambar1 .teks {
+  padding: 60px 40px;
+  /* background-color: whitesmoke; */
+  margin: auto;
+}
+
+.gambar1 .teks p {
+  line-height: 23px;
+  opacity: 0.6;
+}
+
+.gambar2 {
+  background-color: black;
+  height: 300px;
+}
+
+.gambar2 img {
+  width: 400px;
+  float: right;
+}
+
+.gambar2 .teks {
+  padding: 60px 40px;
+  /* background-color: whitesmoke; */
+  margin: auto;
+}
+
+.gambar2 .teks p {
+  line-height: 23px;
+  opacity: 0.6;
+}
+/*============================================== footer==============================================*/
+.main {
+  margin-bottom: 100px;
+}
+
+footer .container {
+  background-image: url(./gambar/Rinjani.jpg);
+  height: 1000px;
+  background-position: center;
+  text-align: center;
+}
+
+.subscribe {
+  color: white;
+  font-family: "Baloo Tammudu 2";
+  padding-top: 190px;
+}
+
+.email {
+  margin-top: 50px;
+}
+
+.email textarea {
+  width: 500px;
+  height: 60px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 25px;
+  float: left;
+  margin-left: 340px;
+  margin-right: 10px;
+}
+
+.email a {
+  float: left;
+  display: block;
+  height: 45px;
+  width: 150px;
+  background-color: rgba(39, 10, 10, 0.384);
+  border-radius: 15px;
+  color: white;
+  padding-top: 17px;
+  font-size: 20px;
+}
+
+.email a:hover {
+  background-color: rgba(39, 10, 10, 1);
+}
+
+.kontak {
+  background-color: red;
+  margin-left: 110px;
+}
+
+.box {
+  width: 20%;
+  height: 150px;
+  background-color: white;
+  float: left;
+  display: block;
+  margin: 40px 30px;
+  margin-top: 200px;
+  border-bottom: 6px solid yellowgreen;
+}
+
+.box p {
+  margin-top: 20px;
+}
+
+.alamat {
+  margin-left: 150px;
+}
